@@ -15,44 +15,7 @@ noextract=("WolframEngine_${pkgver}_LINUX.sh")
 sha256sums=("96106ac8ed6d0e221a68d846117615c14025320f927e5e0ed95b1965eda68e31")
 # TODO: list based on namcap, all in opt but some are probably mandatory
 depends=( )
-optdepends=(
-  assimp
-  bzip2
-  clucene
-  curl
-  espeak
-  ffmpeg
-  flite
-  gmime3
-  intel-mkl
-  java-environment
-  java-runtime
-  lib32-glibc
-  libarchive
-  libmad
-  libnet
-  libxinerama
-  libxtst
-  llvm11-libs
-  minizip
-  mongo-c-driver
-  mpfr
-  nss
-  nvidia-utils
-  opencascade
-  portaudio
-  primecount
-  primesieve
-  protobuf
-  qhull
-  qt5-quick3d
-  qt6-quick3d
-  r
-  ruby
-  tbb
-  tiled
-  tre
-)
+optdepends=()
 options=("!strip")
 
 prepare() {
