@@ -16,7 +16,6 @@ sha256sums=("96106ac8ed6d0e221a68d846117615c14025320f927e5e0ed95b1965eda68e31")
 # TODO: list based on namcap, all in opt but some are probably mandatory
 depends=( )
 optdepends=(
-  arb
   assimp
   bzip2
   clucene
